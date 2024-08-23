@@ -23,6 +23,8 @@
             extend: {
               colors: {
                 clifford: '#da373d',
+                'primary-color': '#ABEF5F',
+                'b-color':'rgba(255, 255, 255, 0)',
               }
             }
           }
@@ -30,7 +32,80 @@
       </script>
 
 </head>
-<body class="manrope">
-    <h3>Lorem ipsum dolor sit amet.</h3>
+<body class="manrope overflow-x-hidden m-0 p-0">
+    <header class="w-[90%] lg:w-[80%] mx-auto my-10">
+        <nav>
+            <div class="navbar bg-base-100">
+                <div class="navbar-start w-[40%]">
+                  <a class=" flex items-center gap-2">
+                  <div>
+                    <i class="fa-solid fa-arrow-right-long -rotate-45 border-2 bg-primary-color border-none p-2 text-md rounded-[50%]"></i>
+                  </div>
+                  <div>
+                    <h1 class=" text-xl lg:text-3xl font-bold">Rinterio</h1>
+                  </div> 
+                </a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1 opacity-90 font-medium">
+                    <li><a>Home</a></li>
+                      <li><a>Services</a></li>
+                      <li><a>Portfolio</a></li>
+                      <li><a>Blogs</a></li>
+                      <li><a>Contact Us</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end space-x-4">
+                  <div class="hidden md:flex">
+                    <i class="text-md p-2 rounded-[50%] border-2 border-gray-200 bg-white  fa-solid  fa-magnifying-glass "></i>
+                  </div>
+                  <div class="hidden md:flex">
+                    <i class="text-md p-2 rounded-[50%] border-2 border-gray-200 bg-white fa-solid fa-cart-shopping"></i>
+                  </div>
+                  <div class="hidden md:flex">
+                    <button class=" flex items-center gap-2 bg-primary-color rounded-[30px] px-5 py-3">
+                    <div >
+                       <h1 class="font-bold text-lg text-black"> Book Consult</h1>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-arrow-right-long -rotate-45 border-2 bg-black text-white border-none p-2 text-md rounded-[50%]"></i>
+                    </div>
+                    </button>
+                  </div>
+                </div>
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M4 6h16M4 12h8m-8 6h16" />
+                      </svg>
+                    </div>
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                      <li><a class="text-black-500">Home</a></li>
+                      <li> <a>Services</a></li>
+                      <li><a>Portfolio</a></li>
+                      <li><a>Blogs</a></li>
+                      <li><a>Contact Us</a></li>
+                    </ul>
+                  </div>
+              </div>
+        </nav>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>
