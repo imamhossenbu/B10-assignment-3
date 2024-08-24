@@ -16,6 +16,12 @@
         .manrope{
             font-family: "Manrope", sans-serif;
         }
+        .discuss-container{
+            background-image: url('./assets/bg.jpg');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
     </style>
     <script>
         tailwind.config = {
@@ -101,45 +107,46 @@
             </div>
         </div>
     </header>
-    <main class="bg-gray-200 pb-20">
-        <section class=" w-[90%] mx-auto lg:w-[80%] py-20 lg:flex items-center relative">
-            <div class="hidden lg:inline absolute top-12 -left-16">
-                <img src="./assets/Vector.png" alt="">
-            </div>
-            <div class="lg:w-[50%] text-center lg:text-left">
-                <button class="px-3 py-2  rounded-[30px] bg-white font-semibold mb-6"><i class="fa-solid fa-arrow-right"></i> About Us</button>
-                <h1 class="font-extrabold text-black leading-tight text-4xl">We design thoughtful, liveable spaces</h1>
-                <p class="text-sm md:text-xl lg:text-sm text-gray-600 font-semibold leading-relaxed my-5">The barn house captivates with its blend of rustic charm and 
-                    modern sophistication, featuring weathered wood, sleek metal accents.
-                </p>
-               <div class="md:flex md:items-center md:gap-2 md:justify-center lg:inline">
-                <div class="flex items-center gap-5 lg:w-[90%] bg-white p-6 rounded-lg mb-8 md:mb-0 lg:mb-8 relative">
-                    <div>
-                        <img src="./assets/commercial.png" alt="">
-                    </div>
-                    <div class="text-left">
-                        <h2 class="font-bold text-xl pb-3">Commercial</h2>
-                        <p class="text-sm font-semibold text-gray-600">The barn house captivates with its  blend  of rustic charm and modern.       
-                        </p>
-                    </div>
+    <main class="">
+        <section class="bg-gray-200">
+            <section class=" w-[90%] mx-auto lg:w-[80%] py-20 lg:flex items-center relative ">
+                <div class="hidden lg:inline absolute top-12 -left-16">
+                    <img src="./assets/Vector.png" alt="">
                 </div>
-                <div class="flex items-center gap-5 lg:w-[90%] bg-white p-6 rounded-lg">
-                    <div>
-                        <img src="./assets/residential.png" alt="">
+                <div class="lg:w-[50%] text-center lg:text-left">
+                    <button class="px-3 py-2  rounded-[30px] bg-white font-semibold mb-6"><i class="fa-solid fa-arrow-right"></i> About Us</button>
+                    <h1 class="font-extrabold text-black leading-tight text-4xl">We design thoughtful, liveable spaces</h1>
+                    <p class="text-sm md:text-xl lg:text-sm text-gray-600 font-semibold leading-relaxed my-5">The barn house captivates with its blend of rustic charm and 
+                        modern sophistication, featuring weathered wood, sleek metal accents.
+                    </p>
+                   <div class="md:flex md:items-center md:gap-2 md:justify-center lg:inline">
+                    <div class="flex items-center gap-5 lg:w-[90%] bg-white p-6 rounded-lg mb-8 md:mb-0 lg:mb-8 relative">
+                        <div>
+                            <img src="./assets/commercial.png" alt="">
+                        </div>
+                        <div class="text-left">
+                            <h2 class="font-bold text-xl pb-3">Commercial</h2>
+                            <p class="text-sm font-semibold text-gray-600">The barn house captivates with its  blend  of rustic charm and modern.       
+                            </p>
+                        </div>
                     </div>
-                    <div class="text-left">
-                        <h2 class="font-bold text-xl pb-3">Residential</h2>
-                        <p class="text-sm font-semibold text-gray-600">The barn house captivates with its blend of rustic charm and modern.
-                        </p>
+                    <div class="flex items-center gap-5 lg:w-[90%] bg-white p-6 rounded-lg">
+                        <div>
+                            <img src="./assets/residential.png" alt="">
+                        </div>
+                        <div class="text-left">
+                            <h2 class="font-bold text-xl pb-3">Residential</h2>
+                            <p class="text-sm font-semibold text-gray-600">The barn house captivates with its blend of rustic charm and modern.
+                            </p>
+                        </div>
                     </div>
+                   </div>
+                    
                 </div>
-               </div>
-                
-            </div>
-            <div class="md:w-[100%lg:w-[50%] mt-10 flex justify-center items-center flex-col">
-                <img class="md:w-[100%]" src="./assets/Rectangle.png" alt="">
-            </div>
-        </section>
+                <div class="md:w-[100%lg:w-[50%] mt-10 flex justify-center items-center flex-col">
+                    <img class="md:w-[100%]" src="./assets/Rectangle.png" alt="">
+                </div>
+            </section>
         <section class="w-[90%] mx-auto lg:w-[80%] grid  grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4 bg-white p-10 rounded-xl">
             <div class="flex justify-center items-center flex-col  space-y-2">
                 <img src="./assets/icon1.png" alt="">
@@ -162,12 +169,13 @@
                 <p class="text-gray-600 font-semibold">Staff Members</p>
             </div>
         </section>
-        <section class="my-20 w-[90%] mx-auto lg:w-[50%] flex justify-center items-center flex-col">
+        <section class="py-20 w-[90%] mx-auto lg:w-[50%] flex justify-center items-center flex-col">
             <button class="px-3 py-2  rounded-[30px] bg-white font-semibold mb-6"><i class="fa-solid fa-arrow-right"></i> How we works</button>
             <h1 class="font-extrabold text-3xl lg:text-5xl text-black pb-4">Our Works Process</h1>
             <p class="text-center text-gray-600 font-semibold text-sm">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam cum, molestiae sit nemo in deleniti quibusdam excepturi autem possimus nobis?</p>
         </section>
-        <section class="w-[90%] mx-auto lg:w-[80%] grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-4">
+        
+        <section class="w-[90%] mx-auto lg:w-[80%] grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-4 pb-20">
             <div class="bg-card1-bg p-6 rounded-lg">
                 <img src="./assets/concept.png" alt="">
                 <h2 class="font-extrabold text-xl py-2">Concept</h2>
@@ -189,9 +197,10 @@
                 <p class="text-sm font-semibold text-gray-600">The barn house captivates with its blend of rustic charm and modern.</p>
             </div>
         </section>
+        </section>
         <section class="bg-white pb-20">
             <div class="w-[90%] mx-auto lg:w-[80%]">
-                <section class="my-10 w-[100%] mx-auto lg:w-[60%] flex justify-center items-center flex-col pt-28 ">
+                <section class="pb-10 w-[100%] mx-auto lg:w-[60%] flex justify-center items-center flex-col pt-28 ">
                     <button class="px-3 py-2  rounded-[30px] bg-lime-100 font-semibold mb-6"><i class="fa-solid fa-arrow-right"></i> Explore Our Latest Works</button>
                     <h1 class="font-extrabold text-3xl lg:text-5xl text-black pb-4">Our Latest Portfolio</h1>
                     <p class="text-center text-gray-600 font-semibold text-sm">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam cum, molestiae sit nemo in deleniti quibusdam excepturi autem possimus nobis?</p>
@@ -241,12 +250,14 @@
                 </section>
             </div>
         </section>
-        <section class="mt-20 mb-10 w-[90%] mx-auto lg:w-[60%] flex justify-center items-center flex-col">
-            <button class="px-3 py-2  rounded-[30px] bg-lime-100 font-semibold mb-6"><i class="fa-solid fa-arrow-right"></i> Rinterio News</button>
-            <h1 class="font-extrabold text-3xl lg:text-5xl text-black pb-4 tracking-tighter text-center">Read Our Articles and News</h1>
-            <p class="text-center text-gray-600 font-semibold text-sm">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam cum, molestiae sit nemo in deleniti quibusdam excepturi autem possimus nobis?</p>
-        </section>
-        <section class="w-[90%] mx-auto lg:w-[80%] grid grid-cols-1 lg:grid-cols-3 gap-5">
+        <section class="bg-gray-200">
+            <section class="pt-20 mb-10 w-[90%] mx-auto lg:w-[60%] flex justify-center items-center flex-col">
+                <button class="px-3 py-2  rounded-[30px] bg-lime-100 font-semibold mb-6"><i class="fa-solid fa-arrow-right"></i> Rinterio News</button>
+                <h1 class="font-extrabold text-3xl lg:text-5xl text-black pb-4 tracking-tighter text-center">Read Our Articles and News</h1>
+                <p class="text-center text-gray-600 font-semibold text-sm">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam cum, molestiae sit nemo in deleniti quibusdam excepturi autem possimus nobis?</p>
+            </section>
+        
+        <section class="w-[90%] mx-auto lg:w-[80%] grid grid-cols-1 lg:grid-cols-3 gap-5 pb-24">
             <div class="p-5 rounded-xl bg-white md:flex gap-5 lg:inline">
                 <img src="./assets/article1.png" alt="">
                 <div>
@@ -316,6 +327,41 @@
                     </button>
                 </div>
             </div>
+        </section>
+        </section>
+        <!-- <div class="h-2 bg-white">
+
+        </div> -->
+        <section class="discuss-container m-2">
+                <section class="pt-24 pb-10 w-[90%] mx-auto lg:w-[60%] flex justify-center items-center flex-col">
+                    <button class="px-3 py-2  rounded-[30px] bg-lime-100 font-semibold mb-6"><i class="fa-solid fa-arrow-right"></i> Let's Connect</button>
+                    <h1 class="font-extrabold text-3xl lg:text-5xl text-black pb-4 tracking-tighter text-center"> Let’s Discuss Next Project</h1>
+                    <p class="text-center text-gray-600 font-semibold text-sm">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam cum, molestiae sit nemo in deleniti quibusdam excepturi autem possimus nobis?</p>
+                </section>
+                <section class="w-[90%] mx-auto lg:w-[70%] pb-20 grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="col-span-2 md:col-span-1 bg-white py-4 pl-4 rounded-3xl outline-0">
+                        <input class="focus:outline-none" type="text" name="" id="" required placeholder="First Name*">
+                    </div>
+                    <div class="col-span-2 md:col-span-1 bg-white py-4 pl-4 rounded-3xl">
+                        <input class="focus:outline-none" type="text" name="" id="" required placeholder="Last Name*">
+                    </div>
+                    <div class="col-span-2 md:col-span-1 bg-white py-4 pl-4 rounded-3xl">
+                        <input class="focus:outline-none" type="phone" required placeholder="Phone Number*">
+                    </div>
+                    <div class="col-span-2 md:col-span-1 bg-white py-4 pl-4 rounded-3xl">
+                        <input class="focus:outline-none" type="email" name="" id="" required placeholder="Email*">
+                    </div>
+                    <div class="col-span-2 h-56 bg-white py-4 pl-4 rounded-3xl">
+                        <input class="focus:outline-none" type="text" name="" id="" placeholder="Write Your Message">
+                    </div>
+                    <div class="col-span-2 bg-primary-color py-4 rounded-3xl flex justify-center">
+                        <button class="flex items-center gap-2">
+                            <h1 class="font-extrabold text-lg">Send Mail</h1>
+                            <i class="p-2 rounded-[50%] bg-black text-white -rotate-45 fa-solid fa-arrow-right-long"></i>
+                        </button>
+
+                    </div>
+                </section>
         </section>
     </main>
     <footer>
